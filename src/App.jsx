@@ -1,12 +1,16 @@
 import React from "react";
 import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Page_1 from "../src/chapter_1/Page_1";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>Home</div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Page_1 />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
