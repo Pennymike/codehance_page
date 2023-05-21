@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Page_1 from "../src/chapter_1/Page_1";
-
+import Main_page from "./pages/Main_page";
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Page_1 />} />
+          <Route path="/" element={<Main_page />} />
         </Routes>
       </BrowserRouter>
     </>
