@@ -35,6 +35,18 @@ export default function Content() {
           </p>
           <p>1/2 | 3 Min Left</p>
         </div>
+        <div className="content__parts">
+          <p>
+            Part 4 <span> ∨ </span>
+          </p>
+          <p>1/2 | 3 Min Left</p>
+        </div>
+        <div className="content__parts">
+          <p>
+            Part 4 <span> ∨ </span>
+          </p>
+          <p>1/2 | 3 Min Left</p>
+        </div>
       </div>
     </>
   );

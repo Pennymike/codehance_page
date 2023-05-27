@@ -23,8 +23,7 @@ export default function Course_vis() {
 
         <div className="visual__notes">
           <p>Lesson Note</p>
-          <input type="text" placeholder="Type here" />
-
+          <textarea placeholder="Type here"></textarea>
           <div className="visual__notes--commands">
             <button>Reset</button>
             <button>Save</button>
